@@ -251,7 +251,6 @@ a:visited {
   background-color: #99e2d0;
   font-size: xx-large;
   text-align: center;
-  height: 33px;
   line-height: 33px;
   white-space: nowrap;
   border-top-right-radius: 20px 20px;
@@ -259,6 +258,9 @@ a:visited {
   transform: translateX(100px);
   cursor: pointer;
   transition: all 700ms;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
 }
 .card:hover > .card__check {
   flex: 25%;
